@@ -1,0 +1,36 @@
+void new_btn(string, x, y, color, func)
+
+void draw_screen()//use global var
+
+void click_hook(x, y)
+
+
+main()
+	while(true)
+		process_mouse_input()
+			click_hook()
+		draw_screen()
+		
+
+----------------
+functions
+	register new button
+	function which write a bat file and run it. 
+		it will create a text file, and that text file will be a result of function
+
+
+----------------
+structure
+
+button
+	char str[128]
+	char x
+	char y
+	char bg_color
+	char fg_color
+	void (*func_ptr)()
+
+----------------
+global var
+selected_button
+button_arr
